@@ -1,0 +1,140 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Courier New', Courier, monospace; 
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container
+{
+    text-align: center;
+}
+.t1 i
+{
+    transition: all 0.50s ease;
+   font-size: 30px;
+}
+.t2 i
+{
+    transition: all 0.50s ease;
+   font-size: 30px;
+}
+.t7 i
+{
+   font-size: 30px;
+   transition: all 0.50s ease;
+
+}
+.t8 i
+{
+   font-size: 30px;
+   transition: all 0.50s ease;
+
+}
+
+.t1 i:hover
+{
+   font-size: 30px;
+   transform: scale(2.04);
+   cursor: pointer;
+
+
+}
+.t2 i:hover
+{
+   font-size: 30px;
+   transform: scale(2.04);
+   cursor: pointer;
+
+
+}
+.t7 i:hover
+{
+   font-size: 30px;
+   transform: scale(2.04);
+   cursor: pointer;
+
+
+}
+.t8 i:hover
+{
+ transform: scale(2.04);
+ font-size: 30px;
+cursor: pointer;
+
+}
+h1
+{
+    text-align: center;
+    color: burlywood;
+    text-decoration:solid;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: 800;
+    transition: all 0.50s ease;
+    padding-bottom: 15px;
+
+
+}
+h1:hover
+{
+    transform: scale(2.04);
+    font-size: 15px;
+   cursor: pointer;   
+}
+.table
+{
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px 4px;
+    border-radius: 2%;
+}
+td{
+    border: 5px blanchedalmond;
+    height: 10vh;
+    padding: 25px;
+}
+.t1 td:nth-child(odd)
+{
+background-color: rgb(15, 12, 12);
+}
+
+.t2 td:nth-child(even)
+{
+background-color: black;
+}
+.t3 td:nth-child(odd)
+{
+background-color: black;
+}
+.t4 td:nth-child(even)
+{
+background-color: black;
+}
+.t5 td:nth-child(odd)
+{
+background-color: black;
+}
+.t6 td:nth-child(even)
+{
+background-color: black;
+}
+.t7 td:nth-child(odd)
+{
+background-color: black;
+}
+.t8 td:nth-child(even)
+{
+background-color: black;
+}
+
